@@ -7,3 +7,7 @@ The key method has been incorporated within
 
 In the R code I may neglect to include `library(qtl)` because I load
 that in my `.Rprofile` file.
+
+This is still a bit incomplete.  (For example, I don't where
+`R/app_results.RData` and `R/app_perms.RData` come from, nor the main
+simulations results.)  I'll work to incorporate that stuff.
