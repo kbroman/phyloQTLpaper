@@ -12,9 +12,9 @@ map10 <- map10[-20]
 
 n.sim <- 500
 n.ind <- seq(50, 200, by=25)
-null4 <- array(dim=c(n.sim, 13, length(n.ind))) 
+null4 <- array(dim=c(n.sim, 13, length(n.ind)))
 dimnames(null4) <- list(NULL, c("onecross",
-                                "maxoveralllod.apac", "maxlod.apac", "diflod.apac", 
+                                "maxoveralllod.apac", "maxlod.apac", "diflod.apac",
                                 "maxoveralllod.tpac", "maxlod.tpac", "diflod.tpac",
                                 "maxoveralllod.apmc", "maxlod.apmc", "diflod.apmc",
                                 "maxoveralllod.tpmc", "maxlod.tpmc", "diflod.tpmc"), n.ind)
