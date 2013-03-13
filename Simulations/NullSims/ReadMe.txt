@@ -2,7 +2,7 @@ Code for simulations under null hypothesis of no QTL.
 
 nullsim_rev.R         Code to do the simulations; used with create_Rsub.pl in the
                       Applications/ directory
- 
+
 combine_rev.R         Combine the results of multiple simulation runs
                       into a single object
 
@@ -20,7 +20,7 @@ nullsims_all_rev.RData: [moved to ../../R/]
 
   statistics:
     onecross: genome-wide maximum LOD score for one cross
-    maxoveralllod : genome-wide maximum of log10{ ave [10^LOD] } 
+    maxoveralllod : genome-wide maximum of log10{ ave [10^LOD] }
     maxlod  : genome-wide maximum LOD score for best partition
     diflod  : genome-wide maximum difference between best and 2nd best partition
 
@@ -28,6 +28,3 @@ nullsims_all_rev.RData: [moved to ../../R/]
     tpac:  tree partitions, all crosses
     apmc:  all partitions, minimal crosses
     tpmc:  tree partitions, minimal crosses
-
-
-
