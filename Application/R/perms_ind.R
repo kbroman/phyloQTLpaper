@@ -1,4 +1,5 @@
 # permutation tests with individual crosses
+library(qtl) # http://www.rqtl.org
 
 set.seed(3729935)
 load("allx_2010-03-03.RData")

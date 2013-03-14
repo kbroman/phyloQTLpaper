@@ -3,6 +3,8 @@
 # revised to include max "overall lod" (log10 ave 10^LOD)
 ######################################################################
 
+library(qtl) # http://www.rqtl.org
+
 set.seed(34615989+SUB)
 
 data(map10)

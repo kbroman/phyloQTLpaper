@@ -4,7 +4,7 @@
 # slightly revised (by Karl): 2010-02-24
 #################################
 
-library(qtl)
+library(qtl) # R/qtl library; http://www.rqtl.org
 
 ## Male=1,Female=0
 ###############################

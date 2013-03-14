@@ -2,6 +2,8 @@
 # compare phyloqtl method to the naive approach
 ######################################################################
 
+library(qtl) # http://www.rqtl.org
+
 set.seed(34615989+SUB)
 
 data(map10)

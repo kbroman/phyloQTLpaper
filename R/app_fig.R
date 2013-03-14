@@ -1,4 +1,6 @@
 
+library(qtl) # R/qtl library; http://www.rqtl.org
+
 load("app_results.RData")
 load("app_perms.RData")
 ind.thr <- quantile(as.numeric(operm.ind.em), 0.95)

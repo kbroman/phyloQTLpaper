@@ -1,3 +1,4 @@
+library(qtl) # http://www.rqtl.org
 set.seed(3729935+SUB)
 load("allx_2010-03-03.RData")
 allx <- lapply(allx, calc.genoprob, step=1)

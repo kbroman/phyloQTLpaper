@@ -1,3 +1,5 @@
+library(qtl) # http://www.rqtl.org
+
 # run calc.genoprob for all of the crosses
 allx <- lapply(allx, calc.genoprob, step=1)
 

@@ -1,7 +1,7 @@
 
 # load results
-#attach("../NullSims/thresholds_rev.RData") # null4
-#attach("power_all_rev.RData") # res
+attach("../NullSims/thresholds_rev.RData") # null4
+attach("power_all_rev.RData") # res
 
 # calculate no selection rate
 ns <- array(dim=c(2,dim(res)[3:7]))

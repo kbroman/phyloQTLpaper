@@ -6,6 +6,8 @@
 # revised: also consider the maximum "overall lod" (log10 ave 10^LOD)
 ######################################################################
 
+library(qtl) # http://www.rqtl.org
+
 set.seed(22811303 + SUB)
 data(map10)
 map10 <- map10[-20]

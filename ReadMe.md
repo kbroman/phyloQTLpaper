@@ -4,10 +4,3 @@ This repository contains the source for the paper
 
 The key method has been incorporated within
 [R/qtl](http://www.rqtl.org).
-
-In the R code I may neglect to include `library(qtl)` because I load
-that in my `.Rprofile` file.
-
-This is still a bit incomplete.  (For example, I don't where
-`R/app_results.RData` and `R/app_perms.RData` come from, nor the main
-simulations results.)  I'll work to incorporate that stuff.
