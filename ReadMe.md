@@ -4,3 +4,5 @@ This repository contains the source for the paper
 
 The key method has been incorporated within
 [R/qtl](http://www.rqtl.org).
+
+[![CC BY](http://i.creativecommons.org/l/by/3.0/88x31.png)](http://creativecommons.org/licenses/by/3.0/)
